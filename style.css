@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    background: rgb(136, 136, 160);
+}
+.container{
+    position: relative;
+    background: #f5f5f5;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0px 2px 20px rgba(139, 134, 134, 0.3) ;
+    border: 3px solid black;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+.header h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.img-me{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+    margin: 25px auto;
+    border: 15px groove rgb(101, 104, 105);
+}
+.img-me img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 30px;
+    border: 3px solid black;
+    align-items: center;
+    
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 2;
+}
+.main h2{
+    background: #6d6d6d;
+    padding: 15px;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+}
+.right{
+    flex: 1;
+    padding: 30px;
+    border: 3px solid black;
+}
+.right h2{
+    margin-bottom: 15px;
+}
+.right p{
+    line-height: 1.5;
+}
+.right pre{
+    line-height: 1;
+}
+.right ul li{
+    line-height: 2;
+}
+.bot {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+     }
+      
+.god {
+        text-align: center; 
+      }
+      
+.my-github {
+        display: flex; 
+        align-items: center; 
+        color: gray;
+      }
+      
+.github-icon {
+        margin-right: 10px; 
+      }
+      
