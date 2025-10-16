@@ -31,13 +31,16 @@ body{
 .img-me{
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     overflow:hidden;
     margin: 25px auto;
-    border: 15px groove rgb(101, 104, 105);
+    border: 5px groove rgb(101, 104, 105);
+    display: flex;
+    align-items: center;
 }
 .img-me img{
     width: 100%;
+    height: auto;
 }
 .main{
     display: flex;
