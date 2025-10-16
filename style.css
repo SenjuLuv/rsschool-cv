@@ -31,7 +31,7 @@ body{
 .img-me{
     height: 200px;
     width: 200px;
-    /* border-radius: 50%; */
+    border-radius: 20%;
     overflow:hidden;
     margin: 25px auto;
     border: 5px groove rgb(101, 104, 105);
@@ -104,3 +104,4 @@ body{
         margin-right: 10px; 
       }
       
+
