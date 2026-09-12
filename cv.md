@@ -5,7 +5,7 @@
 * Gmail: [roman.slesareff@gmail.com](roman.slesareff@gmail.com)
 * Telegram : [senjuluvv](https://t.me/senjuluvv)
 
-# about me
+# About me
 
 Hi! My goal is to learn web development. I can spend a lot of time studying something interesting for me. My strengths are problem solving and fast learning. I want to gain new knowledge and skills.
 
