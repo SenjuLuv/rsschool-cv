@@ -1,3 +1,99 @@
-1
-2
-3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+<header> 
+    <nav>
+    <ul class="menu-list">
+        <li class="menu-list__item"><a class="menu-list__link" href="#contacts">CONTACT</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#skills">SKILLS</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#languages">LANGUAGES</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#myself">MYSELF</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#code">CODE</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#education">EdUCATION</a></li>
+        <li class="menu-list__item"><a class="menu-list__link" href="#projects">PROJECTS</a></li>
+      </ul>
+    </nav>
+    <div class="header">
+        <div class="img-me">
+        <img src="img/im.jpg" alt="Моя фотография">
+    </div>
+    <h1>Roman Slesarau</h1>
+    <h2>Front-end Developer</h2>
+    </div>
+</header>
+<main>
+    <div class="main">
+        <div class="left">
+            <h2 id="contacts">CONTACT ME</h2>
+            <p>Discord: SenjuLuv</p>
+            <p>Gmail: roman.slesareff@gmail.com</p>
+            <p>Telegram: @senjuluvv</p>
+            <h2 id="skills">SKILLS</h2>
+            <ul>
+            <li><p>HTML5 / CSS, Adaptive layout</p></li>
+            <li><p>JavaScript basic, DOM, BOM</p></li>
+            <li><p>Git, GitHub</p></li>
+            <li><p>VS Code</p></li>
+            <li><p>С# basic , PHP basic</p></li>
+            </ul>
+            <h2 id="languages">LANGUAGES</h2>
+            <ul>
+                <li><p><strong>RUSSIAN</strong></p></li>
+                <p>Native</p>
+                <li><p><strong>ENGLISH</strong></p></li>
+                <p>Medium</p>
+            </ul>
+        </div>
+        <div class="right">
+            <h2 id="myself">ABOUT MYSELF</h2>
+            <p>Hi! My goal is to learn web development. I can spend a lot of time studying something interesting for me. My strengths are problem solving and fast learning. I want to gain new knowledge and skills.</p>
+            <h2 id="education">EdUCATION</h2>
+            <p><b>Gomel State University (GSU)</b></p>
+            <p> Faculty of Physics and IT</p>
+            <p>Specialty: Computer Physics</p>
+          <h2 id="code">CODE</h2>
+          <pre>const { assert } = require("chai")
+
+            function test(n, expected) {
+              it(`n=${n}`, () => {  
+                let actual = solution(n)
+                assert.strictEqual(actual, expected)
+              })
+            }
+            
+            describe("basic tests", function(){
+              test(10,23)
+            })</pre>
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li class="project-list__item"><a class="project-list__link" href="https://github.com/SenjuLuv/Quiz"><strong>Quiz</strong></a></li>
+                <li class="project-list__item"><a class="project-list__link" href="https://github.com/SenjuLuv/HTML-Builder"><strong>HTML-BUILDER</strong></a></li>
+                <li class="project-list__item"><a class="project-list__link" href="https://github.com/SenjuLuv/Portfolio_Part"><strong>Portfolio Part</strong></a></li>
+            </ul>
+        </div>
+    </div>
+</main>
+     <footer>
+      <div class="bot">
+        <div class="god">
+        <p><b>© 2026г.</b></p>
+        </div>
+        <a class="my-github" href="https://github.com/SenjuLuv" style="text-decoration: none;">
+            <img class="github-icon" src="./img/git.png" alt="Github Icon" width="26" height="26">
+            <p>Visit my GitHub</p>
+            </a>
+            <a class="rs" href="https://rs.school/courses/javascript">
+                <img class="svg" src="./img/rs.svg" alt="Rsschool Icon" width="73" height="26">
+            </a>
+        </div>
+    </footer>
+  </div>  
+</body>
+</html>
